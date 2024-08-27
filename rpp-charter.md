@@ -5,7 +5,7 @@ EPP has served the domain name industry well, but despite its extensibility feat
 it is not compatible with modern software development and infrastructure services 
 that have been developed in the intervening years.
 
-EPP is currently also not in use for use-cases outside of domain name provisioning and there is a growing need from regional Internet registries (RIRs) for a common unified protocol in the provisioning of IP addresses and ASNs. RIRs have developed their own RESTful provisioning APIs and EPP cannot fulfill their needs as a good starting point for an unified approach. 
+A provisioning protocol based on modern technologies will also lower the bar for new entrants with compatible provisioning use cases not yet covered by EPP, where usage of EPP would bear higher implementation cost and operational difficulties.
 
 There is a desire to create a new domain name provisioning protocol based on state-of-the-art RESTful principles and corresponding data representations using JSON instead of XML. The protocol will specifically target modern tooling for the construction of software as well as modern, scalable infrastructure as is commonly found in cloud and on-premises stateless, serverless, container and virtual application clustering technologies.
 
