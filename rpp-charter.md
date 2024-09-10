@@ -17,7 +17,7 @@ tooling for the construction of software as well as scalable infrastructure as i
 and on-premises stateless, serverless, container and virtual application clustering technologies.
 
 This evolution already started in ccTLD space and first production deployments of this approach already proved 
-very good adoption by both existing clients as well as a preferred way of integration for the new registrants. 
+very good adoption by both existing clients and a preferred way of integration for the new registrars. 
 The use of RESTful principles allows for easier integration with registry functions, enabling smaller registrars 
 to also leverage the automated provisioning channel.
 
