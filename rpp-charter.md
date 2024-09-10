@@ -25,7 +25,7 @@ to also leverage the automated provisioning channel.
 
 This working group is tasked with creating a series of specifications
 to be known collectively as RESTful Provisioning Protocol (RPP).
-These specifications will specifically target modern, RESTful software development methodologies as well as 
+These specifications will specifically target RESTful software development methodologies as well as 
 scalable infrastructure as is commonly found in cloud and on-premises stateless, serverless, containerized and 
 virtual application clustering technologies.
 
