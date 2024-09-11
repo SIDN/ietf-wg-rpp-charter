@@ -7,8 +7,8 @@ using a REST architecture and JSON encoding. Such an architecture could take adv
 elements and other tooling. The recent deployment of RDAP in the domain name industry demonstrates adoption
 of this type of architecture.
 
-This evolution already started in the ccTLD space and first production deployments of this approach already seen
-adoption by both existing clients and a preferred way of integration for the new registrars. 
+This evolution already started in the ccTLD space and first production deployments of this approach have already seen
+adoption by both existing clients and a preferred way of integration for new registrars. 
 A REST architecture may allow easier integration between registries and registrars, thus lowering the
 costs for domain registration and new market entrants. 
 
