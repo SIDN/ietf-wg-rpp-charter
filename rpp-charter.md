@@ -21,8 +21,12 @@ using HTTPS and JSON.
 
 Industry experience and use cases from EPP may influence the outputs
 of this working group, but direct compatibility of RPP with EPP is not
-a goal. Likewise, extensions or other changes for EPP are out of scope
-of this working group.
+a goal. 
+
+The REGEXT working group is chartered to maintain and standardize extensions to EPP, therefore
+extensions or changes for EPP are explicitly out of scope for this group. Some IETF participants
+are expected to be involved in both groups, and there may be some need for coordination between
+REGEXT and RPP.
 
 # Deliverables
 
