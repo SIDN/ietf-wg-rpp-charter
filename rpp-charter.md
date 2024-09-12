@@ -22,7 +22,8 @@ using HTTPS and JSON.
 Industry experience and use cases from EPP may influence the outputs
 of this working group, but direct compatibility of RPP with EPP is not
 a goal. Likewise, extensions or other changes for EPP are out of scope
-of this working group.
+of this working group. The group shall consider and enable migration scenarios
+from using EPP to RPP for both clients and servers.
 
 # Deliverables
 
