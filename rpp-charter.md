@@ -23,4 +23,4 @@ o Standard Track document for RPP Domain Name JSON Mapping to provide Internet d
 This working group will find consensus on a set of core requirements for RPP. In alignment with the IESG's Statement on Support Documents dated 2023-08-24, these requirements will be publicly available on the working group's wiki. Once established, these requirements may be changed through explicit working group consensus and in consultation with the group’s responsible Area Director.
 
 # Dependencies and Liaisons
-The GREEN Working Group will closely collaborate with REGEXT WG that addresses topics related to EPP and RDAP use.
+The RPP Working Group will closely collaborate with REGEXT WG that addresses topics related to EPP and RDAP use.
