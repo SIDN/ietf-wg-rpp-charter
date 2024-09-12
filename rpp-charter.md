@@ -24,7 +24,7 @@ of this working group, but direct compatibility of RPP with EPP is not
 a goal. 
 
 The REGEXT working group is chartered to maintain and standardize extensions to EPP, therefore
-extensions or changes for EPP are explicitly out of scope for this group. Some IETF participants
+extensions or changes for EPP are explicitly out of scope for the RPP working group. Some IETF participants
 are expected to be involved in both groups, and there may be some need for coordination between
 REGEXT and RPP.
 
