@@ -20,8 +20,8 @@ to be known collectively as RESTful Provisioning Protocol (RPP).
 These specifications will specifically target a REST architecture high on the Richardson Maturity Model
 using HTTPS and JSON. 
 
-The protocol will evaluate for possible inclusion of extensibility considerations, allowing to
-cover future use cases beyond the domain name provisioning as well as adding
+The working group will evaluate for possible inclusion of extensibility considerations, allowing
+future use cases beyond the domain name provisioning as well as adding
 or extending operations and data models defined in the core set of protocol specifications.
 
 Industry experience and use cases from EPP may influence the outputs
