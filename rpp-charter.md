@@ -2,10 +2,11 @@
 
 The Extensible Provisioning Protocol (EPP) was standardized ([STD69](https://datatracker.ietf.org/doc/std69/)) 
 over 20 years ago to address the needs of domain name management between domain name registries and registrars.
-Though EPP has served the domain name industry well, there is now a desire to have a provisioning protocol
-using a REST architecture and JSON encoding. Such an architecture could take advantage of web-layer network
-elements and other tooling. The recent deployment of RDAP in the domain name industry demonstrates adoption
-of this type of architecture.
+Though EPP is still serving the domain name industry well, the progress in available development, integration and operational
+patterns, tools and technologies create a desire to have a provisioning protocol using a REST architecture and JSON encoding.
+Such design could take advantage of stateless architecture and widely deployed solutions such as OpenAPI with documentation,
+testing and code generation tools and L4-L7 network services such as API gateways, authorization servers, load balancers, web servers, WAFs etc.
+The recent deployment of RDAP in the domain name industry demonstrates adoption of this type of architecture.
 
 This evolution already started in the ccTLD space and first production deployments of this approach have already seen
 adoption by both existing clients and a preferred way of integration for new registrars. 
@@ -25,8 +26,12 @@ or extending operations and data models defined in the core set of protocol spec
 
 Industry experience and use cases from EPP may influence the outputs
 of this working group, but direct compatibility of RPP with EPP is not
-a goal. Likewise, extensions or other changes for EPP are out of scope
-of this working group.
+a goal. 
+
+The REGEXT working group is chartered to maintain and standardize extensions to EPP, therefore
+extensions or changes for EPP are explicitly out of scope for the RPP working group. Some IETF participants
+are expected to be involved in both groups, and there may be some need for coordination between
+REGEXT and RPP.
 
 # Deliverables
 
