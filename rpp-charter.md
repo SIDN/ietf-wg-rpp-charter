@@ -9,9 +9,9 @@ testing and code generation tools and L4-L7 network services such as API gateway
 The recent deployment of RDAP in the domain name industry demonstrates adoption of this type of architecture.
 
 This evolution already started in the ccTLD space and first production deployments of this approach have already seen
-adoption by both existing clients and a preferred way of integration for new registrars. 
+adoption by both existing clients and a preferred way of integration for new registrars.
 A REST architecture may allow easier integration between registries and registrars, thus lowering the
-costs for domain registration and new market entrants. 
+costs for domain registration and new market entrants.
 
 # Objective and Scope
 
@@ -26,12 +26,10 @@ or extending operations and data models defined in the core set of protocol spec
 
 Industry experience and use cases from EPP may influence the outputs
 of this working group, but direct compatibility of RPP with EPP is not
-a goal. 
-
+a goal.
 The REGEXT working group is chartered to maintain and standardize extensions to EPP, therefore
-extensions or changes for EPP are explicitly out of scope for the RPP working group. Some IETF participants
-are expected to be involved in both groups, and there may be some need for coordination between
-REGEXT and RPP.
+extensions or changes for EPP are explicitly out of scope for the RPP working group.
+The RPP working group may however consider possibilities of mapping of data objects, operations and extensions from EPP to RPP for both clients and servers.
 
 # Deliverables
 
@@ -52,3 +50,6 @@ After finding consensus regarding requirements, the first document to be
 delivered to the IESG by this working group will describe the core architecture of RPP with regard to the
 provisioning of domain names, followed by any specifications necessary
 to implement the core architecture and the JSON mapping for the different objects to be provisioned.
+
+# Coordination of work with other working groups
+Some IETF participants are expected to be involved in both RPP and REGEXT working groups, and there may be some need for coordination between both groups.
