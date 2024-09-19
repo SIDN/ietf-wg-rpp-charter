@@ -3,7 +3,7 @@
 The Extensible Provisioning Protocol (EPP) was standardized ([STD69](https://datatracker.ietf.org/doc/std69/)) 
 over 20 years ago to address the needs of domain name management between domain name registries and registrars.
 Though EPP is still serving the domain name industry well, the progress in available development, integration and operational
-patterns, tools and technologies create a desire to have a provisioning protocol using a REST architecture and JSON encoding.
+patterns, tools and technologies create a desire to have a provisioning protocol using the REST architectural style and the JSON data-interchange format.
 Such design could take advantage of stateless architecture and widely deployed solutions such as OpenAPI with documentation,
 testing and code generation tools and L4-L7 network services such as API gateways, authorization servers, load balancers, web servers, WAFs etc.
 The recent deployment of RDAP in the domain name industry demonstrates adoption of this type of architecture.
