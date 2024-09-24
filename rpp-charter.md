@@ -39,17 +39,18 @@ tools beyond the IETF’s datatracker, and implementation requirements
 for the promotion of work to the IESG.
 
 This working group will find consensus on a set of core requirements for RPP.
-In alignment with the IESG's Statement on Support Documents dated 2023-08-24,
+In alignment with the [IESG's Statement on Support Documents dated 2023-08-24](https://datatracker.ietf.org/doc/statement-iesg-support-documents-in-ietf-working-groups-20230824/),
 these requirements will be publicly available on the working group's wiki.
 Once established, these requirements may be changed through explicit working group
 consensus and in consultation with the group’s responsible Area Director.
 
-# Milestones
-
-After finding consensus regarding requirements, the first document to be 
-delivered to the IESG by this working group will describe the core architecture of RPP with regard to the
+After finding consensus regarding requirements, the next documents to be delivered to the IESG 
+by this working group will describe the core architecture and JSON mapping of RPP with regard to the
 provisioning of domain names, followed by any specifications necessary
 to implement the core architecture and the JSON mapping for the different objects to be provisioned.
+
+A written record of acceptance with an explanation of working group scope of I-Ds as working group work items 
+is to be recorded with explicit acknowledgement of the chairs and published on the wiki.
 
 # Coordination of work with other working groups
 Some IETF participants are expected to be involved in both RPP and REGEXT working groups, and there may be some need for coordination between both groups.
