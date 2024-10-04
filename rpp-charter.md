@@ -57,9 +57,6 @@ by this working group will describe the core architecture and JSON mapping of RP
 provisioning of domain names, followed by any specifications necessary
 to implement the core architecture and the JSON mapping for the different objects to be provisioned.
 
-The working group may also consider RPP extensions that are functional equivalents of registered
-[EPP extensions](https://www.iana.org/assignments/epp-extensions/epp-extensions.xhtml).
-
 A written record of acceptance with an explanation of working group scope of I-Ds as working group work items 
 is to be recorded with explicit acknowledgement of the chairs and published on the wiki.
 
