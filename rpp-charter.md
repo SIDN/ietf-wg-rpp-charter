@@ -36,6 +36,8 @@ In alignment with the IESG's Statement on Support Documents dated 2023-08-24,
 these requirements will be publicly available on the working group's wiki.
 Once established, these requirements may be changed through explicit working group
 consensus and in consultation with the group’s responsible Area Director.
+The finding of consensus for both the initial requirements and any changes will
+be explicitly noted by the chairs on the working group's mailing list.
 
 # Milestones
 
