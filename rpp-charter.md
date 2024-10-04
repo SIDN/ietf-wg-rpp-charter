@@ -31,6 +31,12 @@ The REGEXT working group is chartered to maintain and standardize extensions to 
 extensions or changes for EPP are explicitly out of scope for the RPP working group.
 The RPP working group may however consider possibilities of mapping of data objects, operations and extensions from EPP to RPP for both clients and servers.
 
+[BCP 56](https://datatracker.ietf.org/doc/html/rfc9205) will be used to guide the specification of RPP,
+and the working group may evaluate the usage of URI and HTTP specifications such as 
+[RFC 6570](https://datatracker.ietf.org/doc/html/rfc6570), [RFC 8288](https://datatracker.ietf.org/doc/html/rfc8288),
+[RFC 9421](https://datatracker.ietf.org/doc/html/rfc9421), [RFC 9652](https://www.rfc-editor.org/rfc/rfc9652.html), 
+and the outputs of the [httpapi working group](https://datatracker.ietf.org/wg/httpapi/about/).
+
 # Deliverables
 
 This working group will publish on its wiki its operational practices,
@@ -50,6 +56,9 @@ After finding consensus regarding requirements, the next documents to be deliver
 by this working group will describe the core architecture and JSON mapping of RPP with regard to the
 provisioning of domain names, followed by any specifications necessary
 to implement the core architecture and the JSON mapping for the different objects to be provisioned.
+
+The working group may also consider RPP extensions that are functional equivalents of registered
+[EPP extensions](https://www.iana.org/assignments/epp-extensions/epp-extensions.xhtml).
 
 A written record of acceptance with an explanation of working group scope of I-Ds as working group work items 
 is to be recorded with explicit acknowledgement of the chairs and published on the wiki.
