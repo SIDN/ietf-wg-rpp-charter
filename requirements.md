@@ -3,24 +3,58 @@
 This is a non-exhaustive list of requirements for the RESTful Provisioning Protocol (RPP)
 These requirements will be moved to the working group wiki when it becomes available.
 
-## Authentication
+## Authentication/Authorization
 
-- Support for scalable modern authentication standards (OAuth)
+- Support for scalable modern authorization standards (OAuth)
+- define and standarize scopes for different usage scenario
+- federated authentication (b2b)
 - Fine-granular authorisation model for changes, using framework such as OAuth, beyond current auth-code based authorisation for transfers only
+- domain transfers
+- DNS providers
+- renewals
 
 ## EPP Compatibility
 
-- Compatible with the existing EPP data model to allow automatic mapping/conversion (possibly in both directions)
+- Compatible with the existing EPP data model (what level?)
+- Allow automatic/mechanical mapping/conversion
+- EPP -> RPP - a mapping should should exist for the core objects (domain, contact, host) and a selection of most commonly used extensions - a draft shall name all RFCs
+- RPP -> EPP - a compatibility definition may be defined for the scope of RPP being represented in EPP
+- Compatibility Profiles (compatibility definition?):
+- RPP -> EPP what objects/attributes are included?
+
+### Profiles
+
+Allow for the use of different profiles, for indicating required parts for the data model and/or  mapping definitions.
+
+- Uses a mime type header?
 
 ## Internationalization
 
-- The contact model must have support for internationalization 
-- Email?
-- IDNs?
+The data model must have support for internationalization
+Contact (RDAP JScontact?, or maybe limited items from that)
 
-## Extensibilty
+- Email
+- IDN -> domain name
+- Human readable localized responses
 
-- Allow for flexibility in extending data models (for example adding new attributes)
+## Transactions
+
+Does RPP need transaction support over multiple RPP requests?
+References? ROID? Handles?
+Compound requests (optional for server) - domain name with embedded contact/host vs. request serialization (client waiting for contact/host creation to succeed before sending a domain request) Return complete representation (similar to object info in EPP) after compound request completed.
+
+## Representation of the data vs. transaction information
+
+- The data representation in responses to transactions shall only contain the provisioning object itself, the transaction information shall be rather represented in headers
+- Consider using Prefer HTTP header “return” tag to distinguish between full and minimal data representation in the responses (for example if client is not interested in the full response for bulk use-cases) 
+- Not having transaction identifiers in the representation allows for better caching, so maybe not include client/server ids for info/check requests but only for data modifying requests?
+
+## Extensibility
+
+- Allow for flexibility in extending data model (EPP object extension) e.g. adding a new attribute to an object.
+- Use Prefer HTTP header "handling=strict" vs. "handling=lenient” to make the server behave strictly about unknown attributes vs. ignoring unknown attributes. Another way would be with a more fine-granular approach like the “crit” claim in JWT.
+- Allow extension for new operations (EPP protocol extension) on resources, e.g. registry-lock “/domains/example.nl/extensions/lock” . The extension name/definition may need to include an IANA registration. 
+No need for EPP command-response extension, use standard HTTP response/error handling (headers)?
 
 ## Data Model
 
