@@ -29,7 +29,10 @@ of this working group, but direct compatibility of RPP with EPP is not
 a goal.
 The REGEXT working group is chartered to maintain and standardize extensions to EPP, therefore
 extensions or changes for EPP are explicitly out of scope for the RPP working group.
-The RPP working group may however consider possibilities of mapping of data objects, operations and extensions from EPP to RPP for both clients and servers.
+The RPP working group may however consider possibilities of mapping data objects, operations, command and response,
+and other EPP extension mechanisms to RPP elements and features for both clients and servers. The working group
+may also consider offering informational or best current practices regarding the technical aspects of
+synchronizing and/or transitioning between EPP and RPP.
 
 [BCP 56](https://datatracker.ietf.org/doc/html/rfc9205) will be used to guide the specification of RPP,
 and the working group may evaluate the usage of URI and HTTP specifications such as 
