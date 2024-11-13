@@ -24,7 +24,7 @@ The working group will evaluate for possible inclusion of extensibility consider
 future use cases beyond the domain name provisioning as well as adding
 or extending operations and data models defined in the core set of protocol specifications.
 
-Industry experience of the ccTLDs with provisioning protocols and use cases from EPP may influence the outputs
+Industry experience of the ccTLDs with non-EPP provisioning protocols and use cases from EPP may influence the outputs
 of this working group, but direct compatibility of RPP with EPP is not a goal.
 The REGEXT working group is chartered to maintain and standardize extensions to EPP, therefore
 extensions or changes for EPP are explicitly out of scope for the RPP working group.
