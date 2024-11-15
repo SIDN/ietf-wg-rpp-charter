@@ -35,8 +35,9 @@ used registered EPP extensions, either by providing RPP extensibility
 points or incorporating them into core of the protocol.
 New functionalities, not having any equivalents in EPP, may be also defined for RPP.
 
-The REGEXT working group is chartered to maintain and standardize extensions to EPP, therefore
-extensions or changes for EPP, including those added by RPP, are explicitly out of scope for the RPP working group.
+The REGEXT working group is chartered to maintain and standardize extensions to EPP. Consequently, 
+any extensions or changes to EPP, including those related to RPP functionality that do not exist in EPP, 
+are explicitly out of scope for the RPP working group.
 
 [BCP 56](https://datatracker.ietf.org/doc/html/rfc9205) will be used to guide the specification of RPP,
 and the working group may evaluate the usage of URI and HTTP specifications such as 
