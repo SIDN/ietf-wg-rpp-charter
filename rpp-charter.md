@@ -6,7 +6,7 @@ Though EPP is still serving the domain name industry well, the progress in avail
 patterns, tools and technologies create a desire to have a provisioning protocol using the REST architectural style and the JSON data-interchange format.
 Such design could take advantage of stateless architecture and widely deployed solutions such as OpenAPI with documentation,
 testing and code generation tools and L4-L7 network services such as API gateways, authorization servers, load balancers, web servers, WAFs etc.
-The recent deployment of RDAP in the domain name industry demonstrates adoption of this type of architecture.
+The successful adoption of RDAP by Domain Name Registries (DNRs) and Regional Internet Registries (RIRs) demonstrates the usefulness of this type of architecture and technology tool stack.
 
 This evolution already started in the ccTLD space and first production deployments of this approach have already seen
 adoption by both existing clients and a preferred way of integration for new registrars.
@@ -24,9 +24,9 @@ The working group will evaluate for possible inclusion of extensibility consider
 future use cases beyond the domain name provisioning as well as adding
 or extending operations and data models defined in the core set of protocol specifications.
 
-Industry experience and use cases from EPP may influence the outputs
-of this working group, but direct compatibility of RPP with EPP is not
-a goal.
+Industry experience of the ccTLDs with non-EPP provisioning protocols and use cases from EPP may influence the outputs
+of this working group, but direct compatibility of RPP with EPP is not a goal.
+
 The working group will consider functional equivalents of used functionality 
 of core EPP for domain names, hosts and contacts (RFC5730,5731,5732,5733)
 and possibilities of mapping data objects, operations, command and response.
