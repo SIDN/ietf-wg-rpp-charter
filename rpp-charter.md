@@ -37,7 +37,9 @@ New functionalities, not having any equivalents in EPP, may be also defined for 
 
 The REGEXT working group is chartered to maintain and standardize extensions to EPP. Consequently, 
 any extensions or changes to EPP, including those related to RPP functionality that do not exist in EPP, 
-are explicitly out of scope for the RPP working group.
+are explicitly out of scope for the RPP working group. It is expected that the REGEXT working group
+will continue with new work on EPP, and the activities of the RPP working group are not intended to
+replace EPP.
 
 [BCP 56](https://datatracker.ietf.org/doc/html/rfc9205) will be used to guide the specification of RPP,
 and the working group may evaluate the usage of URI and HTTP specifications such as 
