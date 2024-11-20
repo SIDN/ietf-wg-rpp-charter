@@ -64,6 +64,7 @@ After finding consensus regarding requirements, the next documents to be deliver
 by this working group will describe the core architecture and JSON mapping of RPP with regard to the
 provisioning of domain names, followed by any specifications necessary
 to implement the core architecture and the JSON mapping for the different objects to be provisioned.
+These documents may then be followed by mappings between RPP and EPP.
 
 Analysis of the functionality included and commonly used in core EPP for domain names, hosts and contacts (RFC5730,5731,5732,5733) will be created as input material for the requirements. 
 The working group may also consider RPP extensions that are functional equivalents of registered [EPP extensions](https://www.iana.org/assignments/epp-extensions/epp-extensions.xhtml).
