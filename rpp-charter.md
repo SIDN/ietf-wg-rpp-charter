@@ -35,6 +35,10 @@ used registered EPP extensions, either by providing RPP extensibility
 points or incorporating them into core of the protocol.
 New functionalities, not having any equivalents in EPP, may be also defined for RPP.
 
+The RPP working group is focused on designing a new protocol intended to co-exist alongside EPP, 
+supporting diverse needs in the ecosystem. As such, considerations for replacing EPP or migration 
+scenarios are outside the scope of this work.
+
 The REGEXT working group is chartered to maintain and standardize extensions to EPP. Consequently, 
 any extensions or changes to EPP, including those related to RPP functionality that do not exist in EPP, 
 are explicitly out of scope for the RPP working group.
