@@ -60,18 +60,27 @@ for the promotion of work to the IESG.
 This working group will find consensus on a set of core requirements for RPP.
 In alignment with the [IESG's Statement on Support Documents dated 2023-08-24](https://datatracker.ietf.org/doc/statement-iesg-support-documents-in-ietf-working-groups-20230824/),
 these requirements will be publicly available on the working group's wiki.
+Analysis of the functionality included and commonly used in core EPP for domain names, 
+hosts and contacts (RFC5730,5731,5732,5733) is expected to be created as input material for the requirements. 
+The working group may also consider RPP extensions that are functional equivalents of 
+registered [EPP extensions](https://www.iana.org/assignments/epp-extensions/epp-extensions.xhtml) in
+the construction of requirements.
+
 Once established, these requirements may be changed through explicit working group
 consensus and in consultation with the group’s responsible Area Director.
 The finding of consensus for both the initial requirements and any changes will
 be explicitly noted by the chairs on the working group's mailing list.
 
-After finding consensus regarding requirements, the next documents to be delivered to the IESG 
-by this working group will describe the core architecture and JSON mapping of RPP with regard to the
-provisioning of domain names, followed by any specifications necessary
-to implement the core architecture and the JSON mapping for the different objects to be provisioned.
+After finding consensus regarding requirements, the working group will deliver to the
+IESG documents addressing the following topics in an order determined through agreement
+of the chairs with the responsible Area Director:
+* core architecture
+* specifications necessary to implement the core architecture
+* specifications regarding the provisioning of domain names using RPP
+* mappings between RPP and EPP.
 
-Analysis of the functionality included and commonly used in core EPP for domain names, hosts and contacts (RFC5730,5731,5732,5733) will be created as input material for the requirements. 
-The working group may also consider RPP extensions that are functional equivalents of registered [EPP extensions](https://www.iana.org/assignments/epp-extensions/epp-extensions.xhtml).
+The working group may consider work for the provisioning of other types of Internet registries (e.g. IP addresses)
+with consultation from the responsible Area Director.
 
 A written record of acceptance with an explanation of working group scope of I-Ds as working group work items 
 is to be recorded with explicit acknowledgement of the chairs and published on the wiki.
