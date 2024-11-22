@@ -61,7 +61,7 @@ This working group will find consensus on a set of core requirements for RPP.
 In alignment with the [IESG's Statement on Support Documents dated 2023-08-24](https://datatracker.ietf.org/doc/statement-iesg-support-documents-in-ietf-working-groups-20230824/),
 these requirements will be publicly available on the working group's wiki.
 Analysis of the functionality included and commonly used in core EPP for domain names, 
-hosts and contacts (RFC5730,5731,5732,5733) may be created as input material for the requirements. 
+hosts and contacts (RFC5730,5731,5732,5733) is expected to be created as input material for the requirements. 
 The working group may also consider RPP extensions that are functional equivalents of 
 registered [EPP extensions](https://www.iana.org/assignments/epp-extensions/epp-extensions.xhtml) in
 the construction of requirements.
