@@ -45,7 +45,7 @@ scenarios away from EPP are outside the scope of this work.
 The REGEXT working group is chartered to maintain and standardize extensions to EPP. Consequently, 
 any extensions or changes to EPP, including those related to RPP functionality that do not exist in EPP, 
 are explicitly out of scope for the RPP working group. Some IETF participants active in the REGEXT
-working group will be involved in RPP working groups, and coordination between the two
+working group will be involved in RPP working group, and coordination between the two
 groups is expected.
 
 [BCP 56](https://datatracker.ietf.org/doc/html/rfc9205) will be used to guide the specification of RPP,
@@ -72,10 +72,11 @@ The working group may also consider RPP extensions that are functional equivalen
 registered [EPP extensions](https://www.iana.org/assignments/epp-extensions/epp-extensions.xhtml) in
 the construction of requirements.
 
-Once established, these requirements may be changed through explicit working group
-consensus and in consultation with the group’s responsible Area Director.
-The finding of consensus for both the initial requirements and any changes will
-be explicitly noted by the chairs on the working group's mailing list.
+Once established, these requirements may be changed through explicit working group 
+consensus and, when the chairs determine it to be a major change, in consultation 
+with the group’s responsible Area Director. The finding of consensus for both the 
+initial requirements and any changes will be explicitly noted by the chairs on the 
+working group's mailing list.
 
 After finding consensus regarding requirements, the working group will deliver to the
 IESG documents addressing the following topics in an order determined through agreement
