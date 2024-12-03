@@ -23,7 +23,7 @@ to be known collectively as the RESTful Provisioning Protocol (RPP).
 These specifications will specifically target a REST architecture high on the Richardson Maturity Model
 using HTTPS and JSON. 
 
-In addition to use cases and scenarios for domain name registration, this working group will
+In addition to use cases, scenarios, and extension mechanisms for domain name registration, this working group will
 consider features and extension mechanisms useful for other types of Internet registration areas
 (e.g. IP addresses and autonomous system numbers). 
 
@@ -81,8 +81,9 @@ working group's mailing list.
 After finding consensus regarding requirements, the working group will deliver to the
 IESG documents addressing the following topics in an order determined through agreement
 of the chairs with the responsible Area Director:
-* core architecture
+* core architecture, including extension mechanisms
 * specifications necessary to implement the core architecture
+* specifications necessary to implement extensions
 * specifications regarding the provisioning of domain names using RPP
 * mappings between RPP and EPP
 
