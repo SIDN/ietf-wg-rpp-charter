@@ -50,8 +50,7 @@ All consensus decisions are conducted on the mailing list.
 
 The RPP WG will work on the following milestones within the scope of the charter:
 
-* core architecture, including extension mechanisms
-* specifications necessary to implement the core architecture
-* specifications necessary to implement extensions
-* specifications regarding the provisioning of domain names using RPP
-* mappings between RPP and EPP
+* core architecture, including extension mechanisms (proposed standard)
+* specification(s) necessary to implement the core architecture and extensions (informational)
+* specification(s) regarding the provisioning of domain names using RPP (proposed standard)
+* mappings between RPP and EPP (proposed standard)
