@@ -18,7 +18,7 @@ In addition to use cases, scenarios, and extension mechanisms for domain name re
 
 Industry experience of the ccTLDs with non-EPP provisioning protocols and use cases from EPP may influence the outputs of the RPP WG, but direct compatibility of RPP with EPP is not a goal.
 
-The RPP WG considers functional equivalents of functionality from EPP for domain names, hosts and contacts ([RFC5730](https://datatracker.ietf.org/doc/html/rfc5730), [5731](https://datatracker.ietf.org/doc/html/rfc5731), [5732](https://datatracker.ietf.org/doc/html/rfc5732), and [5733](https://datatracker.ietf.org/doc/html/rfc5733)) and mappings for data objects, operations, commands and response.
+The RPP WG considers functional equivalents of functionality from EPP for domain names, hosts and contacts ([RFC5730](https://datatracker.ietf.org/doc/html/rfc5730), [5731](https://datatracker.ietf.org/doc/html/rfc5731), [5732](https://datatracker.ietf.org/doc/html/rfc5732), and [5733](https://datatracker.ietf.org/doc/html/rfc5733)) and mappings for data objects, operations, commands and responses.
 The RPP WG also considers functional equivalents of registered EPP extensions, either through similar RPP extensions or incorporating them into the core of the protocol.
 New functionalities, not having any equivalents in EPP, may be defined for RPP.
 
