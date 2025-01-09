@@ -16,8 +16,6 @@ These specifications target a REST architecture high on the Richardson Maturity 
 
 In addition to use cases, scenarios, and extension mechanisms for domain name registration, the RPP WG considers features and extension mechanisms useful for other types of Internet registration areas (e.g. IP addresses and autonomous system numbers). 
 
-Industry experience of the ccTLDs with non-EPP provisioning protocols and use cases from EPP may influence the outputs of the RPP WG, but direct compatibility of RPP with EPP is not a goal.
-
 The RPP WG considers functional equivalents of functionality from EPP for domain names, hosts and contacts ([RFC5730](https://datatracker.ietf.org/doc/html/rfc5730), [5731](https://datatracker.ietf.org/doc/html/rfc5731), [5732](https://datatracker.ietf.org/doc/html/rfc5732), and [5733](https://datatracker.ietf.org/doc/html/rfc5733)) and mappings for data objects, operations, commands and responses.
 
 New functionalities, not having any equivalents in EPP or [EPP extensions](https://www.iana.org/assignments/epp-extensions/epp-extensions.xhtml), may be defined for RPP.
