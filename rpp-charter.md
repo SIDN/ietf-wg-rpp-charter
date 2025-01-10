@@ -12,7 +12,7 @@ A standardized REST architecture is expected to allow easier integration between
 # Scope
 
 The RPP WG is tasked with creating a series of specifications to be known collectively as the RESTful Provisioning Protocol (RPP).
-These specifications target a REST architecture high on the Richardson Maturity Model using HTTPS and JSON. 
+These specifications target at least level 2 of the Richardson Maturity Model, using HTTPS and JSON. 
 
 In addition to use cases, scenarios, and extension mechanisms for domain name registration, the RPP WG considers features and extension mechanisms useful for other types of Internet registration areas (e.g. IP addresses and autonomous system numbers). 
 
