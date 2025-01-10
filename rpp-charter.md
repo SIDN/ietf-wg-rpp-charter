@@ -26,22 +26,6 @@ As such, considerations for replacing EPP or migration scenarios away from EPP a
 The REGEXT working group is chartered to maintain and standardize extensions to EPP. 
 Consequently, any extensions or changes to EPP, including those related to RPP functionality that do not exist in EPP, are explicitly out of scope for the RPP working group. 
 
-# Working Group Process
-
-The charter in datatracker is the source of truth for all official working group process requirements.
-
-However, the RPP WG publishes its usage of tools beyond the datatracker and mailing lists on its wiki.
-
-[BCP 56](https://datatracker.ietf.org/doc/html/rfc9205) is used to guide the specification of RPP, along with [RFC 6570](https://datatracker.ietf.org/doc/html/rfc6570), [RFC 8288](https://datatracker.ietf.org/doc/html/rfc8288), [RFC 9421](https://datatracker.ietf.org/doc/html/rfc9421), [RFC 9652](https://www.rfc-editor.org/rfc/rfc9652.html), and the outputs of the [httpapi working group](https://datatracker.ietf.org/wg/httpapi/about/).
-
-Analysis of the functionality included and commonly used in core EPP for domain names, hosts and contacts ([RFC5730](https://datatracker.ietf.org/doc/html/rfc5730), [5731](https://datatracker.ietf.org/doc/html/rfc5731), [5732](https://datatracker.ietf.org/doc/html/rfc5732), and [5733](https://datatracker.ietf.org/doc/html/rfc5733)) is developed to support the deliverables. 
-
-In alignment with the [IESG's Statement on Support Documents dated 2023-08-24](https://datatracker.ietf.org/doc/statement-iesg-support-documents-in-ietf-working-groups-20230824/), these supporting documents are publicly available on the working group's wiki.
-
-Chairs record the justification for a document being in scope for the charter at the time of working group adoption on the mailing list.
-
-All consensus decisions are conducted on the mailing list.
-
 # Deliverables
 
 The RPP WG will work on the following milestones within the scope of the charter:
