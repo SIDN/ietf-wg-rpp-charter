@@ -26,6 +26,10 @@ As such, considerations for replacing EPP or migration scenarios away from EPP a
 The REGEXT working group is chartered to maintain and standardize extensions to EPP. 
 Consequently, any extensions or changes to EPP, including those related to RPP functionality that do not exist in EPP, are explicitly out of scope for the RPP working group. 
 
+RPP resources are secured with appropriatly strong authentication, only encrypted transports are used to properly safeguard authentication material.
+
+Security requirements for RPP are intentionally generic, enabling operators to choose the specific authentication mechanisms and degree of automation that is supported.
+
 # Deliverables
 
 The RPP WG will work on the following milestones within the scope of the charter:
