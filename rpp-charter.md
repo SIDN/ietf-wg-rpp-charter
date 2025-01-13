@@ -11,7 +11,8 @@ A standardized REST architecture is expected to allow easier integration between
 
 # Scope
 
-The RPP WG is tasked with creating a series of specifications to be known collectively as the RESTful Provisioning Protocol (RPP).
+The RPP working group is focused on designing a new protocol via a series of specifications known collectively as the RESTful Provisioning Protocol (RPP).
+
 These specifications target at least level 2 of the Richardson Maturity Model, using HTTPS and JSON. 
 
 In addition to use cases, scenarios, and extension mechanisms for domain name registration, the RPP WG considers features and extension mechanisms useful for other types of Internet registration areas (e.g. IP addresses and autonomous system numbers). 
@@ -20,8 +21,7 @@ The RPP WG considers functional equivalents of functionality from EPP for domain
 
 New functionalities, not having any equivalents in EPP or [EPP extensions](https://www.iana.org/assignments/epp-extensions/epp-extensions.xhtml), may be defined for RPP.
 
-The RPP working group is focused on designing a new protocol intended to co-exist alongside EPP, supporting diverse needs in the ecosystem. 
-As such, considerations for replacing EPP or migration scenarios away from EPP are outside the scope of the RPP WG.
+Given that RPP is intended to co-exist alongside EPP, considerations for replacing EPP or migration scenarios away from EPP are outside the scope of the RPP WG.
 
 The REGEXT working group is chartered to maintain and standardize extensions to EPP. 
 Consequently, any extensions or changes to EPP, including those related to RPP functionality that do not exist in EPP, are explicitly out of scope for the RPP working group. 
