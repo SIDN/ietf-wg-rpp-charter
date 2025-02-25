@@ -47,7 +47,7 @@ Compound requests (optional for server) - domain name with embedded contact/host
 - The client may want to request different depth of data representations, depending of its use-case:
     - Minimal representation (like ID, or ID+name)
     - Full representation (all data of object itself)
-    - Full representation + dereferenced referrals (for example domain with contact and hsot details)
+    - Full representation + dereferenced referrals (for example domain with contact and host details)
 - Different representations may be requested in different contexts:
     - GET request to the resource itself
     - GET request to get a collection of objects
