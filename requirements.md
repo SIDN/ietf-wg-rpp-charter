@@ -43,10 +43,20 @@ Does RPP need transaction support over multiple RPP requests?
 References? ROID? Handles?
 Compound requests (optional for server) - domain name with embedded contact/host vs. request serialization (client waiting for contact/host creation to succeed before sending a domain request) Return complete representation (similar to object info in EPP) after compound request completed.
 
+## Depth of data representation
+- The client may want to request different depth of data representations, depending of its use-case:
+    - Minimal representation (like ID, or ID+name)
+    - Full representation (all data of object itself)
+    - Full representation + dereferenced referrals (for example domain with contact and hsot details)
+- Different representations may be requested in different contexts:
+    - GET request to the resource itself
+    - GET request to get a collection of objects
+    - responses to PUT/POST/PATCH requests
+- Design: Consider using Prefer HTTP header “return” tag to distinguish between full and minimal data representation in the responses (for example if client is not interested in the full response for bulk use-cases) 
+
 ## Representation of the data vs. transaction information
 
 - The data representation in responses to transactions shall only contain the provisioning object itself, the transaction information shall be rather represented in headers
-- Consider using Prefer HTTP header “return” tag to distinguish between full and minimal data representation in the responses (for example if client is not interested in the full response for bulk use-cases) 
 - Not having transaction identifiers in the representation allows for better caching, so maybe not include client/server ids for info/check requests but only for data modifying requests?
 
 ## Extensibility
